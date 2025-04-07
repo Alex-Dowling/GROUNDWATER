@@ -113,11 +113,24 @@ void Display ()
         cout<<"Show you care! - groundwater"<<endl;
         cout<<"Now you are in the know. Don't forget the water down below"<<endl;
         cout<<"Don't forget the water down below"<<endl;
-        cout<<"EVERYONE: Don't forget the water down beloooowwww"<<endl;
+        cout<<"EVERYONE: Don't forget the water down beloooowwww"<<endl<<endl;
 }
 
 void display2 ()
 {
     Display();
-    cout<<"Too bad so sad"<<endl;
+    cout<<"sdSS_SSSSSSbs    sSSs_sSSs      sSSs_sSSs           .S_SSSs     .S_SSSs     .S_sSSs            sSSs    sSSs_sSSs            sSSs   .S_SSSs     .S_sSSs"<<endl;
+    cout<<"YSSS~S%SSSSSP   d%%SP~YS%%b    d%%SP~YS%%b         .SS~SSSSS   .SS~SSSSS   .SS~YS%%b          d%%SP   d%%SP~YS%%b          d%%SP  .SS~SSSSS   .SS~YS%%b"<<endl;
+    cout<<"     S%S       d%S'     `S%b  d%S'     `S%b        S%S   SSSS  S%S   SSSS  S%S   `S%b        d%S'    d%S'     `S%b        d%S'    S%S   SSSS  S%S   `S%b"<<endl;
+    cout<<"     S%S       S%S       S%S  S%S       S%S        S%S    S%S  S%S    S%S  S%S    S%S        S%|     S%S       S%S        S%|     S%S    S%S  S%S    S%S"<<endl;
+    cout<<"     S&S       S&S       S&S  S&S       S&S        S%S SSSS%P  S%S SSSS%S  S%S    S&S        S&S     S&S       S&S        S&S     S%S SSSS%S  S%S    S&S"<<endl;
+    cout<<"     S&S       S&S       S&S  S&S       S&S        S&S  SSSY   S&S  SSS%S  S&S    S&S        Y&Ss    S&S       S&S        Y&Ss    S&S  SSS%S  S&S    S&S"<<endl;
+    cout<<"     S&S       S&S       S&S  S&S       S&S        S&S    S&S  S&S    S&S  S&S    S&S        `S&&S   S&S       S&S        `S&&S   S&S    S&S  S&S    S&S"<<endl;
+    cout<<"     S&S       S&S       S&S  S&S       S&S        S&S    S&S  S&S    S&S  S&S    S&S          `S*S  S&S       S&S          `S*S  S&S    S&S  S&S    S&S"<<endl;
+    cout<<"     S*S       S*b       d*S  S*b       d*S        S*S    S&S  S*S    S&S  S*S    d*S           l*S  S*b       d*S           l*S  S*S    S&S  S*S    d*S"<<endl;
+    cout<<"     S*S       S*S.     .S*S  S*S.     .S*S        S*S    S*S  S*S    S*S  S*S   .S*S          .S*P  S*S.     .S*S          .S*P  S*S    S*S  S*S   .S*S"<<endl;
+    cout<<"     S*S        SSSbs_sdSSS    SSSbs_sdSSS         S*S SSSSP   S*S    S*S  S*S_sdSSS         sSS*S    SSSbs_sdSSS         sSS*S   S*S    S*S  S*S_sdSSS"<<endl;
+    cout<<"     S*S         YSSP~YSSY      YSSP~YSSY          S*S  SSY    SSS    S*S  SSS~YSSY          YSS'      YSSP~YSSY          YSS'    SSS    S*S  SSS~YSSY"<<endl;
+    cout<<"     SP                                            SP                 SP                                                                 SP            "<<endl;
+    cout<<"     Y                                             Y                  Y                                                                  Y             "<<endl;
 }
