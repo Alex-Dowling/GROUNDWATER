@@ -4,7 +4,9 @@ using namespace std;
 
 void Input (double& input);
 
-void Display (double& input);
+void Display ();
+
+void display2 ();
 
 int main()
 {
@@ -12,8 +14,15 @@ int main()
 
     Input (input);
 
-    Display (input);
+    if (input == 1)
+    {
+        Display ();
+    }
 
+    if (input == 2)
+    {
+        display2 ();
+    }
     return 0;
 }
 
@@ -50,10 +59,8 @@ void Input (double& input)
     }
 }
 
-void Display (double& input)
+void Display ()
 {
-    if (input = 1)
-    {
         cout<<endl<<"GARDENER: Hey what happened to my water?"<<endl;
         cout<<"GROUNDHOG 1: There is something here that"<<endl;
         cout<<"you should knoooooww."<<endl;
@@ -107,9 +114,10 @@ void Display (double& input)
         cout<<"Now you are in the know. Don't forget the water down below"<<endl;
         cout<<"Don't forget the water down below"<<endl;
         cout<<"EVERYONE: Don't forget the water down beloooowwww"<<endl;
-    }
-    if (input = 2)
-    {
-        cout<<"Too Bad"<<endl;
-    }
+}
+
+void display2 ()
+{
+    Display();
+    cout<<"Too bad so sad"<<endl;
 }
