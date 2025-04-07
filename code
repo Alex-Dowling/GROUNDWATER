@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//Making Functions
 void Input (double& input);
 
 void Display ();
@@ -10,10 +11,12 @@ void display2 ();
 
 int main()
 {
+    //Defining Variable
     double input;
 
     Input (input);
 
+    //Choosing what to display
     if (input == 1)
     {
         Display ();
@@ -26,6 +29,7 @@ int main()
     return 0;
 }
 
+//Defining Functions
 void Input (double& input)
 {
     cout<<"Would you like to see the groundwater lyrics"<<endl;
@@ -33,6 +37,7 @@ void Input (double& input)
     cin>>input;
     while (true)
     {
+        //Checking for bad Inputs
         if (cin.fail())
         {
             cin.clear();
@@ -59,6 +64,7 @@ void Input (double& input)
     }
 }
 
+//If User wants to see lyrics
 void Display ()
 {
         cout<<endl<<"GARDENER: Hey what happened to my water?"<<endl;
@@ -116,6 +122,7 @@ void Display ()
         cout<<"EVERYONE: Don't forget the water down beloooowwww"<<endl<<endl;
 }
 
+//If user does't want to see lyrics
 void display2 ()
 {
     Display();
