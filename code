@@ -1,0 +1,115 @@
+#include <iostream>
+
+using namespace std;
+
+void Input (double& input);
+
+void Display (double& input);
+
+int main()
+{
+    double input;
+
+    Input (input);
+
+    Display (input);
+
+    return 0;
+}
+
+void Input (double& input)
+{
+    cout<<"Would you like to see the groundwater lyrics"<<endl;
+    cout<<"1 for yes 2 for no"<<endl;
+    cin>>input;
+    while (true)
+    {
+        if (cin.fail())
+        {
+            cin.clear();
+            cout<<"Please input a number"<<endl;
+            cin.ignore(10000, '\n');
+            cin>>input;
+        }
+        if (input > 2)
+        {
+            cin.clear();
+            cout<<"Please enter 1 or 2"<<endl;
+            cin>>input;
+        }
+        if (input < 1)
+        {
+            cin.clear();
+            cout<<"Please enter 1 or 2"<<endl;
+            cin>>input;
+        }
+        else
+        {
+            break;
+        }
+    }
+}
+
+void Display (double& input)
+{
+    if (input = 1)
+    {
+        cout<<endl<<"GARDENER: Hey what happened to my water?"<<endl;
+        cout<<"GROUNDHOG 1: There is something here that"<<endl;
+        cout<<"you should knoooooww."<<endl;
+        cout<<"GROUNDHOG 2: The story of water from down belooooww."<<endl;
+        cout<<"GROUNDWATER: Ooh I'm groundwater, I'm all"<<endl;
+        cout<<"around, most of your water is under ground"<<endl;
+        cout<<"the water we have is all the same"<<endl;
+        cout<<"I'm used over and over again"<<endl;
+        cout<<"[music]"<<endl;
+        cout<<"I surrounded the castle with a watery moat"<<endl;
+        cout<<"and I flowed along under Huck Finn's boat"<<endl;
+        cout<<"I once dripped down as dinosaur drool and"<<endl;
+        cout<<"now I'm the cool, that fills your swimming pool."<<endl;
+        cout<<"GROUNDHOGS: Feel the drops of snow and rain"<<endl;
+        cout<<"an age old cycle again and again"<<endl;
+        cout<<"groundwater under the ground - "<<endl;
+        cout<<"groundwater flowing down"<<endl;
+        cout<<"in the ground - groundwater"<<endl;
+        cout<<"all around - Groundwater"<<endl;
+        cout<<"Don't you know why we should care - the water we use is every where"<<endl;
+        cout<<"GROUNDWATER: Riding along the aquifers, deep down under, where no one stirs"<<endl;
+        cout<<"I feed the lakes, streams and lands"<<endl;
+        cout<<"I'm pulled by wells, I'm in demand"<<endl;
+        cout<<"[Tug boat horn, Slurp sounds]"<<endl;
+        cout<<"Flowing along like great buried treasure, slipping through space to small to measure"<<endl;
+        cout<<"I may start with an oily sheen, but the dirt and rocks help keep me clean"<<endl;
+        cout<<"GROUNDHOGS: Swallow and swim. shave and spray."<<endl;
+        cout<<"We all use water everyday"<<endl;
+        cout<<"Some for fishes. Some for dishes. But is there enough for everyone's wishes?"<<endl;
+        cout<<"Use it - groundwater Don't abuse it - groundwater"<<endl;
+        cout<<"We use our groundwater everyday. Let's make sure it's here to stay."<<endl;
+        cout<<"GROUNDWATER: Oh rainy days, I must lament the troubles I have with tar and cement."<<endl;
+        cout<<"I can't fill the ground if I can't get through."<<endl;
+        cout<<"I'm groundwater, my power is vast, but waste and pollution keep me from my task."<<endl;
+        cout<<"If we are not careful CLEAN water won't last."<<endl;
+        cout<<"GROUNDHOGS: Without some help, we can't carry on."<<endl;
+        cout<<"What will we do if the water is goooooonne?"<<endl;
+        cout<<"Every time you brush your teeth remember the water underneath."<<endl;
+        cout<<"Next time wait. stop. and think"<<endl;
+        cout<<"before you dump stuff down the sink"<<endl;
+        cout<<"Do you part for water power - learn to take"<<endl;
+        cout<<"a shorter shower"<<endl;
+        cout<<"Stuff that makes your grass look swell - will"<<endl;
+        cout<<"later end up in your well"<<endl;
+        cout<<"Protect - Groundwater"<<endl;
+        cout<<"Conserve - Groundwater"<<endl;
+        cout<<"As you plan to build and grow - leave open"<<endl;
+        cout<<"space for water to flow"<<endl;
+        cout<<"Be aware! - groundwater"<<endl;
+        cout<<"Show you care! - groundwater"<<endl;
+        cout<<"Now you are in the know. Don't forget the water down below"<<endl;
+        cout<<"Don't forget the water down below"<<endl;
+        cout<<"EVERYONE: Don't forget the water down beloooowwww"<<endl;
+    }
+    if (input = 2)
+    {
+        cout<<"Too Bad"<<endl;
+    }
+}
